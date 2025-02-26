@@ -50,7 +50,7 @@ Zadig will ensure that your USB device communicates with your application using 
 
 After downloading the `libusb` package, you'll need to configure your project to link to the correct library files.
 
-1. **Copy `libusb-1.0.dll` to your project’s directory**: Ensure that the `libusb-1.0.dll` is placed in the same directory as your executable, or add the directory containing it to your `PATH` environment variable.
+1. Ensure that the `libusb-1.0.dll` is placed in the same directory as your executable, or add the directory containing it to your `PATH` environment variable.
    
 2. **Include Header Files**: Add the `libusb-1.0` header files to your project. You’ll need to include `libusb.h` in your source code.
 
