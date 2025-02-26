@@ -54,10 +54,7 @@ After downloading the `libusb` package, you'll need to configure your project to
    
 2. **Include Header Files**: Add the `libusb-1.0` header files to your project. You’ll need to include `libusb.h` in your source code.
 
-   Example:
-   ```cpp
-   #include <libusb-1.0/libusb.h>
-   ```
+
 
 3. **Link Against the Library**: When compiling your code, ensure that the linker is aware of the `libusb-1.0` static library or import library (e.g., `libusb-1.0.a` or `libusb-1.0.lib`).
 
