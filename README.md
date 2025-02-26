@@ -46,28 +46,12 @@ For certain devices, `libusb` can work with the default `WinUSB` driver provided
 
 Zadig will ensure that your USB device communicates with your application using `libusb` or `WinUSB`.
 
-### Step 3: Link LibUSB to Your Project
 
-After downloading the `libusb` package, you'll need to configure your project to link to the correct library files.
-
-1. Ensure that the `libusb-1.0.dll` is placed in the same directory as your executable, or add the directory containing it to your `PATH` environment variable.
-   
-2. **Include Header Files**: Add the `libusb-1.0` header files to your project. You’ll need to include `libusb.h` in your source code.
-
-
-
-3. **Link Against the Library**: When compiling your code, ensure that the linker is aware of the `libusb-1.0` static library or import library (e.g., `libusb-1.0.a` or `libusb-1.0.lib`).
-
-   If you are using a Makefile or build system, add the path to `libusb-1.0.lib` to your linker flags:
-   ```
-   -L/path/to/libusb -lusb-1.0
-   ```
-
-### Step 4: Write Your First Program
+### Step 3: Write Your First Program
 
 With `libusb` installed, you can now start writing a simple program to interact with USB devices. Here is an example of how to initialize the `libusb` context and list the connected USB devices:
 
-### Step 5: Compile and Run
+### Step 4: Compile and Run
 
 1. Compile your program using your preferred build system (e.g., `g++`, Visual Studio, CMake).
 2. Make sure `libusb-1.0.dll` is either in your project directory or available in your system’s `PATH`.
